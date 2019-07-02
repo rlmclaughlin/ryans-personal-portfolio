@@ -1,0 +1,86 @@
+
+.skills-container{
+    display: flex; 
+    flex-wrap: wrap; 
+    background: black;
+    justify-content: space-around;
+    box-shadow: 0px 1px 3px 2px rgb(226, 2, 96); 
+    border-radius: 15px;  
+    padding: 20px; 
+    width: 100%;
+}
+
+/*---------------------------------------IMAGE-----------------------------------------------*/
+
+.skills-image{
+    width: 75%; 
+    max-height: 100px; 
+    height: 100%; 
+}
+
+/*-------------------------------------ABOUT CONTENT------------------------------------------*/
+
+.skills-content h1{
+    font-size: 50px; 
+    margin: 0px 0px 20px 0px;  
+    text-decoration: underline; 
+    color: white; 
+    letter-spacing: 2px; 
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.skills-content{
+    line-height: 1.5; 
+}
+
+.skills-main-content{
+    width: 100%;     
+    display: flex; 
+    flex-wrap: wrap; 
+    line-height: 1.5;
+    font-size: 16px;  
+    justify-content: space-between;  
+    width: 90%; 
+}
+
+/*-----------------------------------HORIZONTAL RULE-------------------------------------------*/
+
+.horizontal-rule-skills{
+    width: 100%; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+
+.horizontal-rule-skills hr{
+    height: 0px; 
+    border-color: rgb(226, 2, 96);
+    width: 90%;
+    margin: 0px;
+    box-shadow: 0px 1px 3px 2px rgb(0, 68, 255),
+                2px 3px 1px 0px purple; 
+}
+
+/*----------------------------------BUBBLES----------------------------------------*/
+
+.skill-bubble{
+    border-radius: 50%; 
+    font-weight: 600; 
+    padding: 30px 20px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center; 
+    justify-content: center; 
+    background: url("../../Images/skills-1.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    min-width: 70px; 
+    margin: 30px;
+    border: 1px solid rgb(255, 0, 119); 
+    box-shadow: 0px 1px 3px 2px rgb(0, 68, 255),
+                2px 3px 1px 0px purple; 
+}
+
+
+
