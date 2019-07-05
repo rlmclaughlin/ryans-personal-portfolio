@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/Projects/Projects.css'
+import {Link} from 'react-router-dom'
 
 export default class Projects extends React.Component{
     constructor(){
@@ -9,23 +10,23 @@ export default class Projects extends React.Component{
         return(
             <div className='project-container'> 
              <h1>Projects</h1> 
-             <hr class='project-horizontal-rule'/> 
+             <hr className='project-horizontal-rule'/> 
 
               <div className='project'>
                 <h1>Pickem</h1>  
                 <div className='project-image'>
-                  <img class='project-img'></img> 
+                  <img className='project-img'></img> 
                 </div>
                 <p>A site for investors of all levels</p>
-                <a href='#'>Visit Pickem</a>
+                <Link to='pickem'>Visit Pickem</Link>
               </div>  
               <div className='project'>
                 <h1>Hyper Prism</h1>  
                 <div className='project-image'>
-                  <img class='project-img2'></img> 
+                  <img className='project-img2'></img> 
                 </div>
                 <p>A game of intuition</p>
-                <a href='#'>Hyper Prism</a>
+                <Link to='/hyperPrism'> Hyper Prism</Link>
               </div>   
             </div> 
         )

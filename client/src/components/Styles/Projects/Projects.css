@@ -9,6 +9,12 @@
     width: 100%;     
 }
 
+@media(max-width: 550px){
+    .project-container{
+       flex-direction: column;   
+    }
+}
+
 .project{
     width: 45%;
     display: flex; 
@@ -16,7 +22,12 @@
     align-items: center; 
     justify-content: center; 
     padding-bottom: 20px;  
+}
 
+@media(max-width: 550px){
+    .project{
+       width: 90%;  
+    }
 }
 
 .project p{

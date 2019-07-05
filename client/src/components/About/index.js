@@ -11,9 +11,11 @@ export default class About extends React.Component{
             <div className='about-container'>
               <div className='about-content'> 
                 <h1>About Me</h1> 
-                <p> Name: Ryan McLaughlin <br/>
-                    Age: 31 <br /> 
-                    Occupation: Web Developer </p>  
+                <span className='content-mobile'> 
+                  <p> Name: Ryan McLaughlin <br/>
+                      Age: 31 <br /> 
+                      Occupation: Web Developer </p> 
+                </span>  
               </div> 
               <div className='about-me-image'></div>
               <div className='horizontal-rule'> 
