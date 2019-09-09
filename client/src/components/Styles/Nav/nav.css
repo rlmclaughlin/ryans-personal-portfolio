@@ -62,6 +62,14 @@ i{
     color: white;
 }
 
+.fab:hover{
+  color: darkblue; 
+}
+
+.far:hover{
+  color: darkblue
+}
+
 @media(max-width: 621px){
     .fab{
         display: none;  

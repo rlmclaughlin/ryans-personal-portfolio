@@ -65,17 +65,16 @@
 /*----------------------------------BUBBLES----------------------------------------*/
 
 .skill-bubble{
-    border-radius: 50%; 
-    font-weight: 600; 
-    padding: 30px 20px; 
+    font-weight: 700; 
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    padding: 20px;
     display: flex; 
     flex-wrap: wrap; 
     align-items: center; 
     justify-content: center; 
-    background: url("../../Images/skills-1.jpg"); 
     background-size: cover; 
     background-position: center; 
-    min-width: 70px; 
+    min-width: 80px; 
     margin: 30px;
     border: 1px solid rgb(255, 0, 119); 
     box-shadow: 0px 1px 3px 2px rgb(0, 68, 255),
@@ -84,3 +83,13 @@
 
 
 
+
+@media(max-width: 490px){
+    .skill-bubble{
+        width: 100%; 
+        margin: 15px;   
+    }  
+    .skill-bubble:hover{
+        background: purple; 
+    }
+ }

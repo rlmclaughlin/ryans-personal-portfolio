@@ -9,6 +9,8 @@
     width: 100%;    
 }
 
+/*-----------------Header-------------------------------------------*/
+
 .showcase-container h1{
     width: 100%;  
     text-align: center; 
@@ -16,7 +18,7 @@
     font-size: 40px; 
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; 
 }
-
+/*-------------------Header Horizontal Rule-------------------------------------------*/
 .showcase-hr{
     margin: 0px; 
     width: 100%; 
@@ -29,6 +31,8 @@
     2px 3px 1px 0px purple;
 }
 
+/*--------------------Row 1 Content-------------------------------------------------------*/
+
 .row-1{
     display: flex; 
     flex-wrap: wrap; 
@@ -37,12 +41,20 @@
     padding: 20px; 
 }
 
+
+
 .row-1 div{
     display: flex; 
     flex-wrap: wrap; 
     justify-content: center; 
     max-width: 270px; 
     width: 45%; 
+}
+
+@media(max-width: 1150px){
+    .row-1 div{
+        width: 100%; 
+    }
 }
 
 .row-1 div h2{
@@ -57,7 +69,15 @@
     font-size: 18px; 
     margin-top: 0px; 
     padding-left: 10px; 
+    letter-spacing: 1.5px; 
 }
+
+@media(max-width: 1150px){
+    .row-1 div p{
+       font-size: 15px;  
+    }
+}
+/*--------------------------------------Row-1 Image-----------------------------*/
 
 .showcase-image{
     display: flex; 
@@ -68,6 +88,32 @@
     height: 200px; 
 }
 
+@media(max-width: 957px){
+    .showcase-image{
+        margin-top: 20px;  
+    }
+}
+
+@media(max-width: 857px){
+    .showcase-image{
+        margin-top: 20px; 
+        height: 100%; 
+    }
+}
+
+@media(max-width: 857px){
+    .pickem-img{
+        height: 100px;  
+    }
+}
+
+@media(max-width: 857px){
+    .pickem-img-2{
+        height: 100px;  
+    }
+}
+
+
 .pickem-img{
     background: url('../../Images/pickem-home.jpg');
     background-position: bottom;
@@ -76,7 +122,10 @@
     border-color:rgb(0, 68, 255);
     box-shadow: 0px 1px 3px 2px  rgb(226, 2, 96),
     2px 3px 1px 0px purple;
+     
 }
+
+
 
 .pickem-img-2{
     background: url('../../Images/Untitled.png');
@@ -88,6 +137,7 @@
     2px 3px 1px 0px purple;
 }
 
+/*----------------------------------------Row 2----------------------------------*/
 .row-2{
     display: flex; 
     flex-wrap: wrap; 
@@ -95,6 +145,7 @@
     flex-direction: row-reverse;
     width: 100%; 
     padding: 20px; 
+    
 }
 
 .row-2 div{
@@ -105,14 +156,29 @@
     max-width: 270px; 
 }
 
+@media(max-width: 857px){
+    .row-2 div{
+        margin-bottom: 0px; 
+        width: 100%; 
+    }
+}
+
 .row-2 div h2{
     text-decoration: underline;
     text-align: center; 
     width: 100%; 
+    margin-top: 0px; 
     margin-bottom: 0px; 
     text-shadow: 1px 1px 2px black, 0 0 25px purple, 0 0 5px darkblue; 
 }
 
+@media(max-width: 450px){
+    .row-2 div{
+        width: 100%; 
+    }
+}
+
+/*----------------------------------Row-2 list--------------------------------------------------------------------------*/
 .row-2 ul{
     font-size: 18px;
     font-weight: 600;
@@ -123,8 +189,28 @@
     padding-right: 25px; 
 }
 
+@media(max-width: 1150px){
+    .row-2 ul{
+        font-size: 15px; 
+    }
+}
 
+/*---------------------------------Contributions--------------------------------------------------------------------------*/
 #membership{
     font-size: 14px; 
     text-shadow: 1px 1px 2px black, 0 0 25px purple, 0 0 5px darkblue;
+}
+
+
+.contributions-container{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    width: 100%; 
+}
+
+.contributions-container h2{
+    text-shadow: 1px 1px 2px black, 0 0 25px purple, 0 0 5px darkblue;
+    text-decoration: underline;
+     
 }

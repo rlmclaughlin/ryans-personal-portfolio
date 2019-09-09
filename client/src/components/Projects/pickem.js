@@ -18,7 +18,7 @@ export default class Pickem extends React.Component{
                   <div>
                     <h2>What is Pickem?</h2>
                     <p>An investment application that provides real-time stock information.</p> 
-                    <p id='membership'>Membership options available</p>
+                    <a href='#'>Visit Site</a> 
                   </div> 
                   <div className='showcase-image'>
                     <img className='pickem-img'></img> 
@@ -41,6 +41,7 @@ export default class Pickem extends React.Component{
                       <li>Firebase</li>
                       <li>Postgres</li>   
                     </ul>
+                    <a href='#'>Github Repo</a> 
                   </div> 
                   <div className='showcase-image'>
                     <img className='pickem-img-2'></img> 
@@ -48,7 +49,10 @@ export default class Pickem extends React.Component{
                 </div>
                 <div className='showcase-hr'> 
                   <hr className='hr'/>
-                </div>  
+                </div>
+                <div className='contributions-container'>
+                  <h2>Contributions</h2> 
+                </div> 
             </div> 
         )
     }
