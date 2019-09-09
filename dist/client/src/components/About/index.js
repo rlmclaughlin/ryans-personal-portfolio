@@ -27,7 +27,7 @@ export default class About extends React.Component{
                   <br/>
                   My name is Ryan McLaughlin and I'm a 31 year old, web developer, from Dallas, Texas. Beginning in June, 2018, I began 
                   my computer science education with Lambda School. Currently, I'm scheduled to graduate in September, 2019. During my time 
-                  at Lambda, I studied: HTML, CSS, JavaScript, React, Node.js, MySQLite, Python and C. 
+                  at Lambda, I studied: HTML, CSS, JavaScript, React, Node.js, MySQLite, Python. 
                 </p>
               </div> 
             </div> 
