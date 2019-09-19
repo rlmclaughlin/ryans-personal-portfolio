@@ -3,9 +3,7 @@ import '../Styles/Projects/pickem.css'
 
 
 export default class Pickem extends React.Component{
-    constructor(){
-        super();
-    }
+
 
     render(){
         return(
@@ -18,10 +16,10 @@ export default class Pickem extends React.Component{
                   <div>
                     <h2>What is Pickem?</h2>
                     <p>An investment application that provides real-time stock information.</p> 
-                    <a href='#'>Visit Site</a> 
+                    <a href='https://getpickem.co/'>Visit Site</a> 
                   </div> 
                   <div className='showcase-image'>
-                    <img className='pickem-img'></img> 
+                    <img alt='pickem website logo' className='pickem-img'></img> 
                   </div> 
                 </div> 
                 <div className='showcase-hr'> 
@@ -41,10 +39,10 @@ export default class Pickem extends React.Component{
                       <li>Firebase</li>
                       <li>Postgres</li>   
                     </ul>
-                    <a href='#'>Github Repo</a> 
+                    <a href='https://github.com/Lambda-School-Labs/labspt2-investor-data-app'>Github Repo</a> 
                   </div> 
                   <div className='showcase-image'>
-                    <img className='pickem-img-2'></img> 
+                    <img alt='pickem website' className='pickem-img-2'></img> 
                   </div> 
                 </div>
                 <div className='showcase-hr'> 

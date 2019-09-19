@@ -3,9 +3,7 @@ import '../Styles/Projects/Projects.css'
 import {Link} from 'react-router-dom'
 
 export default class Projects extends React.Component{
-    constructor(){
-        super(); 
-    }
+
     render(){
         return(
             <div className='project-container'> 
@@ -15,7 +13,7 @@ export default class Projects extends React.Component{
               <div className='project'>
                 <h1>Pickem</h1>  
                 <div className='project-image'>
-                  <img className='project-img'></img> 
+                  <img alt='pickem site'className='project-img'></img> 
                 </div>
                 <p>A site for investors of all levels</p>
                 <Link to='pickem'>Visit Pickem</Link>
@@ -23,7 +21,7 @@ export default class Projects extends React.Component{
               <div className='project'>
                 <h1>Hyper Prism</h1>  
                 <div className='project-image'>
-                  <img className='project-img2'></img> 
+                  <img alt='hyper prism site' className='project-img2'></img> 
                 </div>
                 <p>A game of intuition</p>
                 <Link to='/hyperPrism'> Hyper Prism</Link>

@@ -25,9 +25,9 @@ export default class Navigation extends React.Component{
                     <div className='mobile-nav-header'> 
                       <i className="fas fa-bars" onClick={this.props.updateHandler} name='open'></i>
                       <h2>Ryan McLaughlin</h2>
-                      <a>
+                      
                         <i className="far fa-envelope mobile-envelope"></i>
-                      </a>
+                      
                     </div> 
                     <div>
                       <a href='https://www.linkedin.com/in/ryan-mclaughlin-05a529188/'>
@@ -36,9 +36,9 @@ export default class Navigation extends React.Component{
                       <a href='https://www.facebook.com/ryan.mclaughlin.9887'>
                         <i className="fab fa-facebook"></i>
                       </a> 
-                      <a>
+                      
                         <i className="far fa-envelope desktop-envelope"></i>
-                      </a> 
+                      
                       <a href='https://github.com/rlmclaughlin'>
                         <i className="fab fa-github"></i>
                       </a>

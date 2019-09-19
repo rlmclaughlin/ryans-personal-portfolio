@@ -2,9 +2,7 @@ import React from 'react'
 import '../Styles/Projects/hyperprism.css'
 
 export default class HyperPrism extends React.Component{
-    constructor(){
-        super();
-    }
+
 
     render(){
         return(

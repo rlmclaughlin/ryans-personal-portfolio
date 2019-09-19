@@ -2,9 +2,6 @@ import React from 'react'
 import '../Styles/Contact/contact.css'
 
 export default class Contact extends React.Component{
-    constructor(props){
-        super(props); 
-    }
 
     render(){
         return(
@@ -16,8 +13,8 @@ export default class Contact extends React.Component{
                 <hr/> 
                 <div className='contact'>
                   <h1>Contact Me</h1> 
-                  <p>Facebook: <a href='#'>Visit Here</a></p>
-                  <p> Linked In: <a href='#'>Visit Here</a></p> 
+                  <p>Facebook: <a href='https://www.facebook.com/ryan.mclaughlin.9887'>Visit Here</a></p>
+                  <p> Linked In: <a href='https://www.linkedin.com/in/ryan-mclaughlin-05a529188/'>Visit Here</a></p> 
                   <p>Phone: 972-974-8268</p>
                   <p>Email: rlmclaughlin@yahoo.com</p>
                 </div>  

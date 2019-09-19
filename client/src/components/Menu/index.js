@@ -3,9 +3,7 @@ import '../Styles/Menu/menu.css'
 import {Link} from 'react-router-dom'
 
 export default class Menu extends React.Component{
-    constructor(props){
-        super(props);
-    }
+
     render(){
         return(
             <div className='menu hidden'>
